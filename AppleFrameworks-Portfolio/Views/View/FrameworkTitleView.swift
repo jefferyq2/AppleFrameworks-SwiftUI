@@ -20,7 +20,7 @@ struct FrameworkTitleView: View {
                 .fontWeight(.semibold)
                 .scaledToFit()
                 .minimumScaleFactor(0.6)
-                .foregroundStyle(.white)
+                .foregroundStyle(Color(.label))
         }
         .padding()
     }
